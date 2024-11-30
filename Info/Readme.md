@@ -1,5 +1,4 @@
 # Introduction
-
 Welcome to the CEC 2025 Programming Competition! Everything you need is in this Github, and we recommend the following steps to get started:
 
 1. Read the rest of this README.md
@@ -11,7 +10,6 @@ Welcome to the CEC 2025 Programming Competition! Everything you need is in this 
 
    
 # Getting Help
-
 Please follow the following steps if you need help:
 
 1. Check the included documentation for logistics and scoring questions
@@ -28,7 +26,8 @@ In your README.md please specify:
 - If needed, what OS your code should be run on Any specifications of this sort not included in your README cannot be assumed to be on the 
 Directors’ machine(s).
 
-# The following files provide all the information regarding the competition. 
+# Info Files
+The following files provide all the information regarding the competition. 
 This includes:
 - The Case Document
 - Presentation
