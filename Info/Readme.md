@@ -10,7 +10,9 @@ Welcome to the CEC 2025 Programming Competition! Everything you need is in this 
 6. Start coding!
 
    
+#subtitle
 Getting Help
+
 Please follow the following steps if you need help:
 
 Check the included documentation for logistics and scoring questions
