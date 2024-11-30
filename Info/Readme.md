@@ -1,4 +1,5 @@
-#Introduction
+#title
+Introduction
 
 Welcome to the CEC 2025 Programming Competition! Everything you need is in this Github, and we recommend the following steps to get started:
 
