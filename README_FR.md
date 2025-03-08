@@ -48,7 +48,7 @@ Nous vous suggérons d'enregistrer le dossier via un fichier zip et de le décom
 ## Récupérer l'ensemble de données
 Voici un exemple de code qui accède à ce dossier et qui s'exécute en utilisant le répertoire racine.
 
-``ruby
+```ruby
 import os
 from os import path
 
@@ -82,7 +82,7 @@ Nombre total d'images : 19374
 ```
 ## Vérification des chemins d'accès aux fichiers
 Vous pouvez également vérifier les chemins d'accès aux fichiers de vos images :
-``Ruby
+```ruby
 import pandas as pd
 import numpy as np
 
