@@ -1,1 +1,5 @@
+# File Format
+
+Ideally csv output is perfered, but xlsx, and google sheets will also work. As long as we can compare with correct results!
+
 
