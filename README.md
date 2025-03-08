@@ -40,6 +40,9 @@ We have given you all access to the images through OneDrive. Below is an example
 ## Retrieve Dataset
 
 ```ruby
+import os
+from os import path
+
 dataset_dir = r"C:\Users\Elias\OneDrive\Documents\CEC\augmented"
 
 # Initialize lists to hold data
@@ -71,10 +74,22 @@ Total number of images: 19374
 ## Checking File Paths
 You may also want to check the file paths of your images:
 ```ruby
+import pandas as pd
+import numpy as np
+
 df = pd.DataFrame({
     'image_path': image_paths,
     'target': targets
 }, index=np.arange(0, total_images))
 
-df.head()
+print(df.head())
+```
+Which should output something like this:
+```
+                                          image_path  target
+0  /Users/orionwiersma/Documents/augmented/no/no_...       0
+1  /Users/orionwiersma/Documents/augmented/no/no_...       0
+2  /Users/orionwiersma/Documents/augmented/no/no_...       0
+3  /Users/orionwiersma/Documents/augmented/no/no_...       0
+4  /Users/orionwiersma/Documents/augmented/no/no_...       0
 ```
