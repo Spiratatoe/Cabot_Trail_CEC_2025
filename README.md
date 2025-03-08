@@ -33,3 +33,30 @@ This includes:
 - Presentation
 - Example Output
 - GitHub Info
+
+# Potentiall Useful Code Info:
+We have given you all access to the images through OneDrive. Below is an example code which accesseses this folder and then runs through using the root directory.
+
+## Retrive Dataset
+```
+dataset_dir = r"C:\Users\Elias\OneDrive\Documents\CEC\augmented"
+
+# Initialize lists to hold data
+image_paths = []
+targets = []
+
+total_images = 0
+
+# Map for target labels
+label_map = {'no':0,'yes':1}
+
+for subdir in listdir(dataset_dir):
+  subdir_path = path.join(dataset_dir, subdir)
+  if path.isdir(subdir_path):
+    subdir_path_list = listdir(subdir_path)
+    for image in subdir_path_list:
+      image_paths.append(path.join(subdir_path, image))
+      targets.append(label_map[subdir])
+    total_images += len(subdir_path_list)
+    print(f"Number of images in '{subdir}' directory: {len(subdir_path_list)}")
+```
