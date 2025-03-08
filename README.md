@@ -38,8 +38,8 @@ This includes:
 We have given you all access to the images through OneDrive. Below is an example code which accesseses this folder and then runs through using the root directory.
 
 ## Retrive Dataset
-```
-dataset_dir = r"C:\Users\Elias\OneDrive\Documents\CEC\augmented"
+
+```dataset_dir = r"C:\Users\Elias\OneDrive\Documents\CEC\augmented"
 
 # Initialize lists to hold data
 image_paths = []
