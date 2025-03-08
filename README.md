@@ -37,7 +37,7 @@ This includes:
 # Potentiall Useful Code Info:
 We have given you all access to the images through OneDrive. Below is an example code which accesseses this folder and then runs through using the root directory.
 
-## Retrive Dataset
+## Retrieve Dataset
 
 ```ruby
 dataset_dir = r"C:\Users\Elias\OneDrive\Documents\CEC\augmented"
@@ -60,4 +60,21 @@ for subdir in listdir(dataset_dir):
       targets.append(label_map[subdir])
     total_images += len(subdir_path_list)
     print(f"Number of images in '{subdir}' directory: {len(subdir_path_list)}")
+print(f'Total number of images: {total_images}')
+```
+This should ouput something like this:
+```
+Number of images in 'no' directory: 5650
+Number of images in 'yes' directory: 9808
+Total number of images: 15458
+```
+## Checking File Paths
+You may also want to check the file paths of your images:
+```ruby
+df = pd.DataFrame({
+    'image_path': image_paths,
+    'target': targets
+}, index=np.arange(0, total_images))
+
+df.head()
 ```
