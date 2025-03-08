@@ -34,6 +34,11 @@ This includes:
 - Example Output
 - GitHub Info
 
+# Testing
+Your code will be tested by comparing the results of your algorythm to the correct results. A folder (that only the directors have access to) labelled 'CEC_test' will have a set amount of images corresponding to yes or no. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similiar to the yes and no directories. 
+
+Results will be compared witht the correct results using Excel. It is neccesary that competitors output there results to an csv file (or similiar). While other UI's are encouraged, any .csv file or anything simliar is neccesary for testing purposes only! You can see the sample outupt in the info folder for more details relating to this!
+
 # Potentiall Useful Info:
 We have given you all access to the images through OneDrive link here: 
 https://dalu-my.sharepoint.com/:f:/g/personal/or942416_dal_ca/EnQWMWAfUMZFvSOX0s12eyIBUcl52LuIB1posYqPujOtzw?e=CSkuKl
