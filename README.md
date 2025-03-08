@@ -34,16 +34,19 @@ This includes:
 - Example Output
 - GitHub Info
 
-# Potentiall Useful Code Info:
-We have given you all access to the images through OneDrive. Below is an example code which accesseses this folder and then runs through using the root directory.
+# Potentiall Useful Info:
+We have given you all access to the images through OneDrive link here: https://dalu-my.sharepoint.com/:f:/r/personal/or942416_dal_ca/Documents/CEC_2025?csf=1&web=1&e=DNdeC3 
+
+We suggest saving the folder via a zip file and then unzipping it locally to your computer. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
 
 ## Retrieve Dataset
+Below is an example code which accesseses this folder and then runs through using the root directory.
 
 ```ruby
 import os
 from os import path
 
-dataset_dir = r"C:\Users\Elias\OneDrive\Documents\CEC\augmented"
+dataset_dir = r"/Users/orionwiersma/Documents/CEC_2025"
 
 # Initialize lists to hold data
 image_paths = []
