@@ -36,7 +36,7 @@ This includes:
 
 # Potentiall Useful Info:
 We have given you all access to the images through OneDrive link here: 
-https://dalu-my.sharepoint.com/:f:/r/personal/or942416_dal_ca/Documents/CEC_2025?csf=1&web=1&e=DNdeC3 
+https://dalu-my.sharepoint.com/:f:/g/personal/or942416_dal_ca/EnQWMWAfUMZFvSOX0s12eyIBUcl52LuIB1posYqPujOtzw?e=CSkuKl
 
 We suggest saving the folder via a zip file and then unzipping it locally to your computer. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
 
