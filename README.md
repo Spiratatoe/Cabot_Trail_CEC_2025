@@ -37,7 +37,7 @@ This includes:
 # Testing
 Your code will be tested by comparing the results of your algorythm to the correct results. A folder (that only the directors have access to) labelled 'CEC_test' will have a set amount of images corresponding to yes or no. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similiar to the yes and no directories. 
 
-Results will be compared with the correct results in Excel. It is neccesary that competitors output there results to a csv file (or similiar). While other UI's are encouraged, a .csv file or anything simliar for outputting raw results is neccesary for testing purposes! You can see the sample outupt in the info folder for more details relating to this!
+Results will be compared with the correct results in Excel. It is neccesary that competitors output there results to a csv, xlsx, or google sheet file (or similiar). While other UI's are encouraged, a .csv file or anything simliar for outputting raw results is neccesary for testing purposes! You can see the sample outupt in the info folder for more details relating to this!
 
 # Potentiall Useful Info:
 We have given you all access to the images through OneDrive link here: 
