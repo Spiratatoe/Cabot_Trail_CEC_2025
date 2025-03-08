@@ -64,9 +64,9 @@ print(f'Total number of images: {total_images}')
 ```
 This should ouput something like this:
 ```
-Number of images in 'no' directory: 5650
-Number of images in 'yes' directory: 9808
-Total number of images: 15458
+Number of images in 'no' directory: 9546
+Number of images in 'yes' directory: 9828
+Total number of images: 19374
 ```
 ## Checking File Paths
 You may also want to check the file paths of your images:
