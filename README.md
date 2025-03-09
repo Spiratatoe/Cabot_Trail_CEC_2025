@@ -43,7 +43,7 @@ Results will be compared with the correct results in Excel. It is neccesary that
 We have given you all access to the images through OneDrive link here: 
 https://dalu-my.sharepoint.com/:f:/g/personal/or942416_dal_ca/EnQWMWAfUMZFvSOX0s12eyIBUcl52LuIB1posYqPujOtzw?e=CSkuKl
 
-We suggest saving the folder via a zip file and then unzipping it locally to your computer. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
+We suggest saving the folder via a zip file and then unzipping it locally to your computer. Download the no zip file followed by the no zip file, to avoid errors. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
 
 ## Retrieve Dataset
 Below is an example code which accesseses this folder and then runs through using the root directory.
