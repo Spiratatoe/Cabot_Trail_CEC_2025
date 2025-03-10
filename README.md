@@ -35,6 +35,24 @@ This includes:
 - Testing information
 - GitHub Info
 
+# Accessing Dataset
+
+We have given you all access to the images through OneDrive link here: 
+
+```
+[gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
+](https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt
+)
+```
+
+You'll notice that the dataset is to be saved as a 7z file. You will need to install  
+The password for the zip file is:
+```
+gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
+```
+
+We suggest saving the folder via a zip file and then unzipping it locally to your computer. Download the no zip file followed by the yes zip file, to avoid errors. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
+
 # Testing
 Your code will be tested by comparing the results of your algorythm to the correct results. A folder labelled 'CEC_test' will have a set amount of test images (that only the directors have access to) corresponding to 'yes' or 'no'. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similiar to the yes and no directories. Make sure you have a testing script referncing this folder located at (/CEC_2025/CEC_test), Directors will change the file path according to their machines on the day.
 
@@ -43,19 +61,6 @@ Results will be compared with the correct results in Excel. It is neccesary that
 As long as your code outputs the test_image being tested (1st collumn) and the resule which is either 'yes' or 'no' (2nd collumn), your code will be ready for testing.
 
 # Potentiall Useful Info:
-We have given you all access to the images through OneDrive link here: 
-https://dalu-my.sharepoint.com/:f:/g/personal/or942416_dal_ca/EnQWMWAfUMZFvSOX0s12eyIBUcl52LuIB1posYqPujOtzw?e=CSkuKl
-
-OR
-
-https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt
-
-The password for the zip file is:
-```
-gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
-```
-
-We suggest saving the folder via a zip file and then unzipping it locally to your computer. Download the no zip file followed by the yes zip file, to avoid errors. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
 
 ## Retrieve Dataset
 Below is an example code which accesseses this folder and then runs through using the root directory. 
