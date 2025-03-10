@@ -43,6 +43,10 @@ Results will be compared with the correct results in Excel. It is neccesary that
 We have given you all access to the images through OneDrive link here: 
 https://dalu-my.sharepoint.com/:f:/g/personal/or942416_dal_ca/EnQWMWAfUMZFvSOX0s12eyIBUcl52LuIB1posYqPujOtzw?e=CSkuKl
 
+OR
+
+https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt
+
 The password for the zip file is:
 ```
 gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
