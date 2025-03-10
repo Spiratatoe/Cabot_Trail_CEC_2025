@@ -1,5 +1,5 @@
 # Introduction
-Welcome to the CEC 2025 Programming Competition! Everything you need is in this Github, and we recommend the following steps to get started:
+Welcome to the CEC 2025 Programming Competition! Everything you need is in this GitHub, and we recommend the following steps to get started:
 
 1. Read the rest of this README.md
 2. Read the tutorial linked in githubHowToUseGithubDesktop.txt
@@ -22,8 +22,8 @@ In your README.md please specify:
 
 - How to run your code
 - What language and version your code uses (ie. Python 3.11)
-- A list of required packages (i.e. Pandas, NumPy), with version if needed (ie. pytorch==2.1.116)
-- If needed, what OS your code should be run on Any specifications of this sort not included in your README cannot be assumed to be on the 
+- A list of required packages (i.e. Pandas, NumPy), with version if needed (ie. pytorch==2.1.116). A requirements.txt would also suffice.
+- If needed, what OS your code should be run on. Any specifications of this sort not included in your README cannot be assumed to be on the 
 Directors’ machine(s).
 
 # Info Files
@@ -32,12 +32,15 @@ This includes:
 - The Case Document
 - Presentation
 - Example Output
+- Testing information
 - GitHub Info
 
 # Testing
-Your code will be tested by comparing the results of your algorythm to the correct results. A folder (that only the directors have access to) labelled 'CEC_test' will have a set amount of images corresponding to yes or no. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similiar to the yes and no directories. 
+Your code will be tested by comparing the results of your algorythm to the correct results. A folder labelled 'CEC_test' will have a set amount of test images (that only the directors have access to) corresponding to 'yes' or 'no'. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similiar to the yes and no directories. Make sure you have a testing script referncing this folder located at (/CEC_2025/CEC_test), Directors will change the file path according to their machines on the day.
 
-Results will be compared with the correct results in Excel. It is neccesary that competitors output there results to a csv, xlsx, or google sheet file (or similiar). While other UI's are encouraged, a .csv file or anything simliar for outputting raw results is neccesary for testing purposes! You can see the sample outupt in the info folder for more details relating to this!
+Results will be compared with the correct results in Excel. It is neccesary that competitors output there results to a csv, xlsx, or google sheet file (or similiar). While other UI's are encouraged for asthetic purposes, a .csv file or anything simliar for outputting raw results is neccesary for testing purposes! You can see the sample outupt in the info folder for more details relating to this!
+
+As long as your code outputs the test_image being tested (1st collumn) and the resule which is either 'yes' or 'no' (2nd collumn), your code will be ready for testing.
 
 # Potentiall Useful Info:
 We have given you all access to the images through OneDrive link here: 
