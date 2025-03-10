@@ -58,8 +58,6 @@ The password for the 7z file is:
 gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 ```
 
-We suggest saving the folder via a zip file and then unzipping it locally to your computer. Download the no zip file followed by the yes zip file, to avoid errors. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
-
 # Testing
 Your code will be tested by comparing the results of your algorythm to the correct results. A folder labelled 'CEC_test' will have a set amount of test images (that only the directors have access to) corresponding to 'yes' or 'no'. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similiar to the yes and no directories. Make sure you have a testing script referncing this folder located at (/CEC_2025/CEC_test), Directors will change the file path according to their machines on the day.
 
