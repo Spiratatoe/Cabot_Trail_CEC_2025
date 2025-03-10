@@ -112,9 +112,9 @@ print(df.head())
 Which should output something like this:
 ```
                                           image_path  target
-0  /Users/orionwiersma/Documents/augmented/no/no_...       0
-1  /Users/orionwiersma/Documents/augmented/no/no_...       0
-2  /Users/orionwiersma/Documents/augmented/no/no_...       0
-3  /Users/orionwiersma/Documents/augmented/no/no_...       0
-4  /Users/orionwiersma/Documents/augmented/no/no_...       0
+0  /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+1  /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+2  /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+3  /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+4  /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
 ```
