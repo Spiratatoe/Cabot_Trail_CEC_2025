@@ -55,13 +55,15 @@ gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 We suggest saving the folder via a zip file and then unzipping it locally to your computer. Download the no zip file followed by the yes zip file, to avoid errors. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
 
 ## Retrieve Dataset
-Below is an example code which accesseses this folder and then runs through using the root directory.
+Below is an example code which accesseses this folder and then runs through using the root directory. 
+
+Note: This code was written for MacOS interfacing
 
 ```ruby
 import os
 from os import path
 
-dataset_dir = r"/Users/orionwiersma/Documents/CEC_2025"
+dataset_dir = "/file/path/to/CEC_2025" # Change this to where the folder is saved
 
 # Initialize lists to hold data
 image_paths = []
@@ -70,24 +72,29 @@ targets = []
 total_images = 0
 
 # Map for target labels
-label_map = {'no':0,'yes':1}
+label_map = {'no': 0, 'yes': 1, 'CEC_test': 2}  # Added 'CEC_test' label
 
-for subdir in listdir(dataset_dir):
-  subdir_path = path.join(dataset_dir, subdir)
-  if path.isdir(subdir_path):
-    subdir_path_list = listdir(subdir_path)
-    for image in subdir_path_list:
-      image_paths.append(path.join(subdir_path, image))
-      targets.append(label_map[subdir])
-    total_images += len(subdir_path_list)
-    print(f"Number of images in '{subdir}' directory: {len(subdir_path_list)}")
+# Loop through subdirectories in the dataset directory
+for subdir in os.listdir(dataset_dir):
+    subdir_path = path.join(dataset_dir, subdir)
+
+    if os.path.isdir(subdir_path):
+        subdir_path_list = os.listdir(subdir_path)
+        for image in subdir_path_list:
+            image_paths.append(path.join(subdir_path, image))
+            targets.append(label_map[subdir])
+
+        total_images += len(subdir_path_list)
+        print(f"Number of images in '{subdir}' directory: {len(subdir_path_list)}")
+
 print(f'Total number of images: {total_images}')
 ```
 This should ouput something like this:
 ```
 Number of images in 'no' directory: 8727
+Number of images in 'CEC_test' directory: 1
 Number of images in 'yes' directory: 9310
-Total number of images: 18037
+Total number of images: 18038
 ```
 ## Checking File Paths
 You may also want to check the file paths of your images:
