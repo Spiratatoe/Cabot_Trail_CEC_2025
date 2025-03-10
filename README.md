@@ -45,7 +45,7 @@ https://dalu-my.sharepoint.com/:f:/g/personal/or942416_dal_ca/EnQWMWAfUMZFvSOX0s
 
 The password for the zip file is:
 ```
-<insert password>
+gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 ```
 
 We suggest saving the folder via a zip file and then unzipping it locally to your computer. Download the no zip file followed by the yes zip file, to avoid errors. On average this method takes about 20min (assuming ~400KB/s). You can try syncing the OneDrive folder, however we find it takes longer to download the files that way.
