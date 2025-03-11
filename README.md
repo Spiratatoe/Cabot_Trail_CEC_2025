@@ -59,11 +59,11 @@ gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 ```
 
 # Testing
-Your code will be tested by comparing the results of your algorythm to the correct results. A folder labelled 'CEC_test' will have a set amount of test images (that only the directors have access to) corresponding to 'yes' or 'no'. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similiar to the yes and no directories. Make sure you have a testing script referncing this folder located at (/CEC_2025/CEC_test), Directors will change the file path according to their machines on the day.
+Your code will be tested by comparing the results of your algorithm to the correct results. A folder labelled 'CEC_test' will have a set amount of test images (that only the directors have access to) corresponding to 'yes' or 'no'. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similar to the yes and no directories. Make sure you have a testing script referencing this folder located at (/CEC_2025/CEC_test), Directors will change the file path according to their machines on the day.
 
-Results will be compared with the correct results in Excel. It is neccesary that competitors output there results to a csv, xlsx, or google sheet file (or similiar). While other UI's are encouraged for asthetic purposes, a .csv file or anything simliar for outputting raw results is neccesary for testing purposes! You can see the sample outupt in the info folder for more details relating to this!
+Results will be compared with the correct results in Excel. It is necessary that competitors output their results to a csv, xlsx, or google sheet file (or similar). While other UI's are encouraged for aesthetic purposes, a .csv file or anything similar for outputting raw results is necessary for testing purposes! You can see the sample output in the info folder for more details relating to this!
 
-As long as your code outputs the test_image being tested (1st collumn) and the resule which is either 'yes' or 'no' (2nd collumn), your code will be ready for testing.
+As long as your code outputs the test_image being tested (1st column) and the result which is either 'yes' or 'no' (2nd column), your code will be ready for testing.
 
 # Potentiall Useful Info:
 
