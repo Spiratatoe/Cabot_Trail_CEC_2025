@@ -2,33 +2,30 @@
 Welcome to the CEC 2025 Programming Competition! Everything you need is in this GitHub, and we recommend the following steps to get started:
 
 1. Read the rest of this README.md
-2. Read the tutorial linked in githubHowToUseGithubDesktop.txt
-3. Read the tutorial linked in githubHowToFork.txt
+2. Read the tutorial linked in `githubHowToUseGithubDesktop.txt`
+3. Read the tutorial linked in `githubHowToFork.txt`
 4. Fork this repo
 5. Clone your forked repo locally on your machine
 6. Start coding!
 
-   
 # Getting Help
-Please follow the following steps if you need help:
+Please follow the steps below if you need help:
 
 1. Check the included documentation for logistics and scoring questions
 2. Check the Programming Competition Case for competition questions
-3. Check the discord for previously answered questions
-4. If you have done all of that, ask the Directors for help. If we can answer your question, it will be posted on the discord in English and French.
-   
+3. Check the Discord for previously answered questions
+4. If you have done all of that, ask the Directors for help. If we can answer your question, it will be posted on the Discord in English and French.
+
 # Important Notes
 In your README.md please specify:
 
 - How to run your code
-- What language and version your code uses (ie. Python 3.11)
-- A list of required packages (i.e. Pandas, NumPy), with version if needed (ie. pytorch==2.1.116). A requirements.txt would also suffice.
-- If needed, what OS your code should be run on. Any specifications of this sort not included in your README cannot be assumed to be on the 
-Directors’ machine(s).
+- What language and version your code uses (e.g., Python 3.11)
+- A list of required packages (e.g., Pandas, NumPy), with versions if needed (e.g., pytorch==2.1.116). A `requirements.txt` would also suffice.
+- If needed, what OS your code should be run on. Any specifications of this sort not included in your README cannot be assumed to be on the Directors’ machine(s).
 
 # Info Files
-The following files provide all the information regarding the competition. 
-This includes:
+The following files provide all the information regarding the competition. This includes:
 - The Case Document
 - Presentation
 - Example Output
@@ -36,41 +33,46 @@ This includes:
 - GitHub Info
 
 # Accessing Dataset
+We have given you access to the images through the OneDrive link here:
 
-We have given you all access to the images through the OneDrive link here: 
+https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt
 
-https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt 
-
-
-You'll notice that the dataset is to be saved as a 7z file. You will need to install either 7-zip, keka, or p7zip to extract the dataset.
+You'll notice that the dataset is to be saved as a 7z file. You will need to install either 7-zip, Keka, or p7zip to extract the dataset.
 
 7-zip can be downloaded for Windows using the following link:
 https://www.7-zip.org
 
-
-keka can be downloaded for MacOS using the following link:
+Keka can be downloaded for MacOS using the following link:
 https://www.keka.io/en/
 
-
-On Ubuntu please install p7zip (or any other 7z supported software) by running the following commands in your terminal:
+On Ubuntu, please install p7zip (or any other 7z supported software) by running the following commands in your terminal:
 ```
 sudo apt update
 sudo apt install p7zip-full
 ```
 
-When extracting the file make sure to use 7-zip or keka.
+
+When extracting the file, make sure to use 7-zip or Keka.
 
 The password for the 7z file is:
+
 ```
 gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 ```
 
 # Testing
-Your code will be tested by comparing the results of your algorithm to the correct results. A folder labelled 'CEC_test' will have a set amount of test images (that only the directors have access to) corresponding to 'yes' or 'no'. The file format for these images will be png, with the names of each image being 'test_xxx.png'. Note x in this case represents the number of files tested, similar to the yes and no directories. Make sure you have a testing script referencing this folder located at (/CEC_2025/CEC_test), Directors will change the file path according to their machines on the day.
+Your code will be tested by comparing the results of your algorithm to the correct results, with each team getting a percentage value for how accurate there code was. A folder labeled 'CEC_test' will have a set amount of test images (that only the directors have access to) corresponding to 'yes' or 'no'. The file format for these images will be PNG, with the names of each image being 'test_xxx.png'. Note: "x" in this case represents the number of files tested, similar to the yes and no directories. Make sure you have a testing script referencing this folder located at `/CEC_2025/CEC_test`; Directors may need to change the file path according to their machines on the day.
 
-Results will be compared with the correct results in Excel. It is necessary that competitors output their results to a csv, xlsx, or google sheet file (or similar). While other UI's are encouraged for aesthetic purposes, a .csv file or anything similar for outputting raw results is necessary for testing purposes! You can see the sample output in the info folder for more details relating to this!
+Results will be compared with the correct results in Excel. It is necessary that competitors output their results to a CSV, XLSX, or Google Sheet file (or similar). While other UIs are encouraged for aesthetic purposes, a .csv file or anything similar for outputting raw results is necessary for testing purposes! You can see the sample output in the info folder for more details relating to this!
 
-As long as your code outputs the test_image being tested (1st column) and the result which is either 'yes' or 'no' (2nd column), your code will be ready for testing.
+As long as your code outputs the test image being tested (1st column) and the result, which is either 'yes' or 'no' (2nd column), your code will be ready for testing.
+
+# Potentially Useful Info:
+
+## Retrieve Dataset
+Below is an example code which accesses this folder and then runs through using the root directory.
+
+Note: This code was written for MacOS interfacing
 
 # Potentiall Useful Info:
 
