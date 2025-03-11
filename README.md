@@ -70,13 +70,6 @@ As long as your code outputs the test image being tested (1st column) and the re
 # Potentially Useful Info:
 
 ## Retrieve Dataset
-Below is an example code which accesses this folder and then runs through using the root directory.
-
-Note: This code was written for MacOS interfacing
-
-# Potentiall Useful Info:
-
-## Retrieve Dataset
 Below is an example code which accesseses this folder and then runs through using the root directory. 
 
 Note: This code was written for MacOS interfacing
