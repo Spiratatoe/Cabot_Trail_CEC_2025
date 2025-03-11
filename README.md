@@ -42,7 +42,7 @@ We have given you all access to the images through the OneDrive link here:
 https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt 
 
 
-You'll notice that the dataset is to be saved as a 7z file. You will need to install either 7-zip or keka to extract the dataset.
+You'll notice that the dataset is to be saved as a 7z file. You will need to install either 7-zip, keka, or p7zip to extract the dataset.
 
 7-zip can be downloaded for Windows using the following link:
 https://www.7-zip.org
@@ -50,6 +50,13 @@ https://www.7-zip.org
 
 keka can be downloaded for MacOS using the following link:
 https://www.keka.io/en/
+
+
+On Ubuntu please install p7zip (or any other 7z supported software) by running the following commands in your terminal:
+```
+sudo apt update
+sudo apt install p7zip-full
+```
 
 When extracting the file make sure to use 7-zip or keka.
 
