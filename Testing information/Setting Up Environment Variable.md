@@ -60,6 +60,15 @@ Or if you are using Zsh:
 ```
 source ~/.zshrc  # For Zsh users
 ```
+5. Test the Variable
+You can test the variable by trying the following commad:
+```
+echo $CEC_2025_dataset
+```
+Which should output something like this:
+```
+C:\Users\YourUsername\Documents\CEC_2025
+```
 
 ### **Step 2: Testing the Environment Variable in Python (not required)**
 In your Python script, you can access the environment variable like this:
