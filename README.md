@@ -91,9 +91,9 @@ The folder you have downloaded will contain three subfolders, a 'yes' folder, 'n
 # Potentially Useful Info:
 
 ## Retrieve Dataset
-Below is an example code which accesseses this folder and then runs through using the root directory. 
+Below is an example code (in Python, however it's not mandatory for you to use Python) which accesseses this folder and then runs through using the root directory. 
 
-Note: This references the environment variable CEC_2025_dataset which we encourage you to setup on your local computers. In this repository you can check `\Testing Information\setting_up_environment_variable.md` for more information on using environment variables.
+Note: This references the environment variable CEC_2025_dataset which we encourage you to setup on your local computers. In this repository you can check `\Testing Information\setting_up_environment_variable.md` for more information on using environment variables. 
 
 ```ruby
 import os
