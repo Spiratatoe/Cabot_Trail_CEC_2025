@@ -88,7 +88,7 @@ targets = []
 total_images = 0
 
 # Map for target labels
-label_map = {'no': 0, 'yes': 1, 'CEC_test': 2}  # Added 'CEC_test' label
+label_map = {'no': 0, 'yes': 1, 'CEC_test': 2} 
 
 # Loop through subdirectories in the dataset directory
 for subdir in os.listdir(dataset_dir):
