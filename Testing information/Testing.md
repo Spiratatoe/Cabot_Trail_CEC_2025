@@ -6,10 +6,10 @@ Results will be compared with the correct results in Excel. It is necessary that
 ### Testing Output
 See CEC_test_output_ex.csv file for an example as to how we would prefer raw data to be outputted.
 
-See mock_testing_file.csv to see how your code will be tested
+See mock_testing_file.csv to see how your code will be tested. Here we will compare your test output with the correct results.
 
 ### Accuracy -> Penalties/Bonus!
-Teams who are alke to construct an algorythm with >=95% accuracy will receive bonus points, while those unable to meet benchmark threshold with >=65% accuracy will be subject to point deductions.
+Teams who are able to construct an algorythm with >=95% accuracy will receive bonus points, while those unable to meet benchmark threshold with >=65% accuracy will be subject to point deductions.
 
 ### All you need to do is...
 As long as your code outputs the test image being tested (1st column) and the result, which is either 'yes' or 'no' (2nd column), your code will be ready for testing.
