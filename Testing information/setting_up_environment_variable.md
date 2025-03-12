@@ -23,6 +23,8 @@ This guide explains how to set up an environment variable named `CEC_2025_datase
 
 Well the environment variable should now work, it'd help to test it. Below is some Python code which you can use to reference the `CEC_2025_dataset` folder:
 
+Note: You may need to reboot your
+
 ```python
 import os
 
