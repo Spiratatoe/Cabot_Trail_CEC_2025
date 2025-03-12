@@ -34,7 +34,7 @@ else:
     print("Please set the 'CEC_2025_dataset' environment variable.")
 ```
 
-## 2. **macOS Instructions
+## 2. **macOS Instructions**
 
 ### **Step 1: Set the Environment Variable**
 
