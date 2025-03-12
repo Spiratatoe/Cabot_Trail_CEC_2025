@@ -48,6 +48,7 @@ Or if you are using Zsh:
 nano ~/.zshrc  # For Zsh users
 ```
 3. Add the following line at the end of the file, replacing the path with the actual location of your `CEC_2025` folder:
+*Note: You will need to go down to the end of your file, make sure to change the file path to the correct one on your machine.
 ```
 export CEC_2025_dataset="/Users/YourUsername/Documents/CEC_2025"
 ```
