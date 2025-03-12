@@ -57,6 +57,8 @@ sudo apt install p7zip-full
 
 When extracting the file, make sure to use 7-zip or Keka.
 
+### PASSWORD
+
 The password for the 7z file is:
 
 ```
