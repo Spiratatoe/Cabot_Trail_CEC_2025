@@ -70,7 +70,7 @@ gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 ## Retrieve Dataset
 Below is an example code which accesseses this folder and then runs through using the root directory. 
 
-Note: This references the environment variable CEC_2025_dataset which we encourage you to setup on your local computers. In this repository check `Testing Information\setting_up_environment_variable.md` for more information on using environmen variables.
+Note: This references the environment variable CEC_2025_dataset which we encourage you to setup on your local computers. In this repository you can check `\Testing Information\setting_up_environment_variable.md` for more information on using environment variables.
 
 ```ruby
 import os
