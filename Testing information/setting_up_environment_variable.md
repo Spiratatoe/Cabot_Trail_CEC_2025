@@ -18,12 +18,22 @@ This guide explains how to set up an environment variable named `CEC_2025_datase
 6. In the **Variable value** field, enter the full path to the folder containing `CEC_2025` (e.g., `C:\Users\YourUsername\Documents\CEC_2025`).
 7. Click **OK** to save the variable.
 8. Click **OK** again to close the **Environment Variables** window.
+9. To test if this worked try running the following command in Power Shell
+```
+$env:CEC_2025_dataset
+```
+
+This should ouput something like this:
+```
+C:\Users\YourUsername\Documents\CEC_2025
+```
+
+Note: Windows often requires a full reboot to apply environment variable changes system-wide, especially for Python and other applications to recognize them. As a result its best to reboot after running steps 1-8.
 
 ### **Step 2: Testing the Environment Variable in Python (not required)**
 
 Well the environment variable should now work, it'd help to test it. Below is some Python code which you can use to reference the `CEC_2025_dataset` folder:
 
-Note: You may need to reboot your
 
 ```python
 import os
