@@ -14,7 +14,7 @@ Please follow the steps below if you need help:
 1. Check the included documentation for logistics and scoring questions
 2. Check the Programming Competition Case for competition questions
 3. Check the Discord for previously answered questions
-4. If you have done all of that, ask the Directors for help. If we can answer your question, it will be posted on the Discord in English and French.
+4. If you have done all of that, ask the Directors for help. If we can answer your question, it will be posted on the Discord in English.
 
 # Important Notes
 In your README.md please specify:
@@ -22,6 +22,7 @@ In your README.md please specify:
 - How to run your code
 - What language and version your code uses (e.g., Python 3.11)
 - A list of required packages (e.g., Pandas, NumPy), with versions if needed (e.g., pytorch==2.1.116). A `requirements.txt` would also suffice.
+- Which files (with links if not located on git branch) that need to be downloaded to run your code.
 - If needed, what OS your code should be run on. Any specifications of this sort not included in your README cannot be assumed to be on the Directors’ machine(s).
 
 # Info Files
