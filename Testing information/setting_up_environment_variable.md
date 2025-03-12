@@ -32,7 +32,7 @@ Note: Windows often requires a full reboot to apply environment variable changes
 
 ### **Step 2: Testing the Environment Variable in Python (not required)**
 
-Well the environment variable should now work, it'd help to test it. Below is some Python code which you can use to reference the `CEC_2025_dataset` folder:
+While the environment variable should now work, it'd help to test it. Below is some Python code which you can use to reference the `CEC_2025_dataset` folder:
 
 
 ```python
@@ -86,7 +86,7 @@ C:\Users\YourUsername\Documents\CEC_2025
 ```
 
 ### **Step 2: Testing the Environment Variable in Python (not required)**
-In your Python script, you can access the environment variable like this:
+While the environment variable should now work, it'd help to test it. Below is some Python code which you can use to reference the `CEC_2025_dataset` folder:
 
 ```python
 import os
