@@ -39,12 +39,15 @@ https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV
 
 You'll notice that the dataset is to be saved as a 7z file. You will need to install either 7-zip, Keka, or p7zip to extract the dataset.
 
+###  Windows
 7-zip can be downloaded for Windows using the following link:
 https://www.7-zip.org
 
+### macOS
 Keka can be downloaded for MacOS using the following link:
 https://www.keka.io/en/
 
+### Ubuntu
 On Ubuntu, please install p7zip (or any other 7z supported software) by running the following commands in your terminal:
 ```
 sudo apt update
