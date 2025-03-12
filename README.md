@@ -65,6 +65,8 @@ Your code will be tested by comparing the results of your algorithm to the corre
 
 Results will be compared with the correct results in Excel. It is necessary that competitors output their results to a CSV, XLSX, or Google Sheet file (or similar). While other UIs are encouraged for aesthetic purposes, a .csv file or anything similar for outputting raw results is necessary for testing purposes! You can see the sample output in the info folder for more details relating to this!
 
+Teams who are abke to construct an algorythm with >=95% accuracy will receive bonus points, while those unable to meet benchmark threshold with >=65% accuracy will be subject to point deductions.
+
 As long as your code outputs the test image being tested (1st column) and the result, which is either 'yes' or 'no' (2nd column), your code will be ready for testing.
 
 # Potentially Useful Info:
