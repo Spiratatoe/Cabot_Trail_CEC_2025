@@ -2,7 +2,7 @@
 
 As a part of making testing more efficient and so that nothing is lost while trying to run test scripts on the directors laptops, it is strongly encouraged that you perform environment variable mapping.
 
-This guide explains how to set up an environment variable named `CEC_2025_dataset` to point to the folder containing `CEC_2025`, so that you can use it in your code without hardcoding the full path.
+This guide explains how to set up an environment variable named `CEC_2025_dataset` to point to the folder containing `CEC_2025`, so that you can use it in your code without hardcoding the full path. You are also encouraged to use environment variables for any files referenced that are required to be downloaded on directors machines.
 
 ---
 
