@@ -103,5 +103,5 @@ else:
 ```
 # Special Note
 
-Some IDE configurations (like PyCharm, or Jupyter) require additional setup for environment variables because they don’t automatically inherit environment variables from the system shell. You may need to do some eztra mapping for those IDE's.
+Some IDE configurations (like PyCharm, or Jupyter) require additional setup for environment variables because they don’t automatically inherit environment variables from the system shell. You may need to do some extra mapping for those IDE's.
 
