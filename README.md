@@ -72,13 +72,14 @@ As long as your code outputs the test image being tested (1st column) and the re
 ## Retrieve Dataset
 Below is an example code which accesseses this folder and then runs through using the root directory. 
 
-Note: This code was written for MacOS interfacing
+Note: This code was written for MacOS interfacing.
+Note: This references the environment variable CEC_2025_dataset which we encourage you to setup on your local computers. In this repository check `Testing Information\Setting Up Environment Variables.md` for more information
 
 ```ruby
 import os
 from os import path
 
-dataset_dir = "/file/path/to/CEC_2025" # Change this to where the folder is saved
+dataset_dir = os.getenv('CEC_2025_dataset')  # Retrieves the path from the environment variable
 
 # Initialize lists to hold data
 image_paths = []
