@@ -1,7 +1,3 @@
-# Environment Variable Setup Instructions
-
-Here you can find step-by-step instructions for both Windows and macOS to set up the environment variable CEC_2025_dataset to point to the CEC_2025 folder.
-
 # Setting Up `CEC_2025_dataset` Environment Variable
 
 This guide explains how to set up an environment variable named `CEC_2025_dataset` to point to the folder containing `CEC_2025`, so that you can use it in your Python code without hardcoding the full path.
