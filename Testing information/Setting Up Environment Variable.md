@@ -1,6 +1,8 @@
 # Setting Up `CEC_2025_dataset` Environment Variable
 
-This guide explains how to set up an environment variable named `CEC_2025_dataset` to point to the folder containing `CEC_2025`, so that you can use it in your Python code without hardcoding the full path.
+As a part of making testing more efficient and so that nothing is lost while trying to run test scripts on the directors laptops, it is strongly encouraged that you perform environment variable mapping.
+
+This guide explains how to set up an environment variable named `CEC_2025_dataset` to point to the folder containing `CEC_2025`, so that you can use it in your code without hardcoding the full path.
 
 ---
 
