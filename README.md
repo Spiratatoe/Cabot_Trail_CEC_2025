@@ -67,7 +67,7 @@ gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 
 ### Directory structure
 
-The folder you have downloaded will contain three subfolders, a 'yes' folder, 'no' folder and 'CEC_test' folder. The 'yes' and 'no' folders contain images corresponding to healthy and unhealthy MRI scans, while the 'CEC_test' folder will be used by the directors for testing purpses.
+The folder you have downloaded will contain three subfolders, a 'yes' folder, 'no' folder and 'CEC_test' folder. The 'yes' and 'no' folders contain images corresponding to healthy and unhealthy MRI scans, while the 'CEC_test' folder will be used by the directors for testing purposes.
 ```
 /CEC_2025
 │
