@@ -71,7 +71,7 @@ gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 Below is an example code which accesseses this folder and then runs through using the root directory. 
 
 Note: This code was written for MacOS interfacing.
-Note: This references the environment variable CEC_2025_dataset which we encourage you to setup on your local computers. In this repository check `Testing Information\Setting Up Environment Variables.md` for more information
+Note: This references the environment variable CEC_2025_dataset which we encourage you to setup on your local computers. In this repository check `Testing Information\setting_up_environment_variable.md` for more information
 
 ```ruby
 import os
