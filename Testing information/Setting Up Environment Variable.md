@@ -86,5 +86,7 @@ else:
     print("Please set the 'CEC_2025_dataset' environment variable.")
 
 ```
+# Special Note
 
+Some IDE configurations (like PyCharm, or Jupyter) require additional setup for environment variables because they don’t automatically inherit environment variables from the system shell.
 
