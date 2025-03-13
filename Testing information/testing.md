@@ -12,4 +12,4 @@ See mock_testing_file.csv to see how your code will be tested. Here we will comp
 Teams who are able to construct an algorythm with >=95% accuracy will receive bonus points, while those unable to meet benchmark threshold with >=65% accuracy will be subject to point deductions.
 
 ### All you need to do is...
-As long as your code outputs the test image being tested (1st column) and the result, which is either 'yes' or 'no' (2nd column), your code will be ready for testing.
+As long as your code outputs the test image being tested (1st column) and the result, which is either 'yes' or 'no' (2nd column), your code will be ready for testing. You are required to make the testing script.
