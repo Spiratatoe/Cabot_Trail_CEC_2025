@@ -33,6 +33,8 @@ Teams will face penalties ranging from elimination to -5pts depending on severit
 
 Alternative download methods are allowed, as long as the files are uploaded within the challenge’s time constraints and the upload time is visible.
 
+Note: Late model file submissions will be tolerated purely at the discretion of the Directors, Competitors must explicitly state the reason for late submission of these files. Directors will not use late files if the reason why they are late, is not communicated by the competitors, or if the reason is not sufficient.
+
 # Info Files
 The following files provide all the information regarding the competition. This includes:
 - The Case Document
