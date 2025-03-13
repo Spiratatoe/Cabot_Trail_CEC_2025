@@ -88,7 +88,6 @@ The folder you have downloaded will contain three subfolders, a 'yes' folder, 'n
     └── ...
 ```
 
-
 # Potentially Useful Info:
 
 ## Retrieve Dataset
