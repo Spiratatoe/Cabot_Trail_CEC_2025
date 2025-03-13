@@ -135,7 +135,7 @@ Nombre total d'images : 18038
 ```
 ## Vérification des chemins d'accès aux fichiers
 Vous pouvez également vérifier les chemins d'accès aux fichiers de vos images :
-``Ruby
+```Ruby
 import pandas as pd
 import numpy as np
 
