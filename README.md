@@ -56,7 +56,7 @@ sudo apt install p7zip-full
 ```
 
 
-When extracting the file, make sure to use 7-zip or Keka.
+When extracting the file, make sure to use 7-zip, p7zip, or Keka.
 
 ### PASSWORD
 
