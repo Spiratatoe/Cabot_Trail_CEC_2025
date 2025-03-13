@@ -1,4 +1,4 @@
-# Model File Download Criterion:
+# Model File Download Instructions:
 
 If your code requires specific files for model data (e.g., model weights stored in HDF5, Pickle, JSON format, etc.), please specify these dependencies in the README file.
 
