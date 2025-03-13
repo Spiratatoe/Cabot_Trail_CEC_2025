@@ -1,88 +1,141 @@
 # Introduction
-Bienvenue au concours de programmation CEC 2025 ! Tout ce dont vous avez besoin se trouve dans ce Github, et nous vous recommandons de suivre les étapes suivantes pour commencer :
+Bienvenue au concours de programmation CEC 2025 ! Tout ce dont vous avez besoin se trouve dans ce GitHub, et nous vous recommandons de suivre les étapes suivantes pour commencer :
 
 1. Lisez le reste de ce README.md
-2. Lisez le tutoriel lié à githubHowToUseGithubDesktop.txt
-3. Lisez le tutoriel lié à githubHowToFork.txt
-4. Débloquer ce repo
+2. Lisez le tutoriel lié à `githubHowToUseGithubDesktop.txt`
+3. Lisez le tutoriel lié à `githubHowToFork.txt`
+4. Créer un repo (Fork)
 5. Clonez votre repo forké localement sur votre machine
 6. Commencez à coder !
 
-   
 # Obtenir de l'aide
-Veuillez suivre les étapes suivantes si vous avez besoin d'aide :
+Veuillez suivre les étapes ci-dessous si vous avez besoin d'aide :
 
 1. Consultez la documentation incluse pour les questions de logistique et de notation
 2. Consultez le dossier du concours de programmation pour les questions relatives au concours
-3. Consultez le discord pour les questions auxquelles vous avez déjà répondu
-4. Si vous avez fait tout cela, demandez de l'aide aux directeurs. Si nous pouvons répondre à votre question, elle sera postée sur le discord en anglais et en français.
-   
+3. Consultez le Discord pour les questions auxquelles vous avez déjà répondu
+4. Si vous avez fait tout cela, demandez de l'aide aux directeurs. Si nous pouvons répondre à votre question, elle sera postée sur le Discord en anglais.
+
 # Notes importantes
 Dans votre README.md, veuillez spécifier :
 
 - Comment exécuter votre code
-- Le langage et la version que votre code utilise (ie. Python 3.11)
-- Une liste des paquets requis (i.e. Pandas, NumPy), avec la version si nécessaire (ie. pytorch==2.1.116)
-- Si nécessaire, le système d'exploitation sur lequel votre code doit être exécuté Toute spécification de ce type non incluse dans votre README ne peut être considérée comme étant sur la (les) machine(s) des directeurs. 
-machine(s) des administrateurs.
+- Le langage et la version que votre code utilise (par exemple, Python 3.11)
+- Une liste des paquets requis (par exemple, Pandas, NumPy), avec les versions si nécessaire (par exemple, pytorch==2.1.116). Un `requirements.txt` peut également suffire.
+- Les fichiers modèles (avec les liens s'ils ne sont pas situés sur la branche git) qui doivent être téléchargés pour exécuter votre code. Voir ``Testing Information\specific_model_file_download.md`` pour plus d'informations à ce sujet.
+- Si nécessaire, le système d'exploitation sur lequel votre code doit être exécuté. Toute spécification de ce type qui n'est pas incluse dans votre README ne peut être considérée comme étant sur la ou les machines des directeurs.
 
 # Fichiers d'information
-Les fichiers suivants fournissent toutes les informations relatives au concours. 
-Il s'agit des fichiers suivants
-- Le document de cas
-- la présentation
-- Exemple de production
+Les fichiers suivants fournissent toutes les informations relatives au concours. Il s'agit des dossiers suivants
+- Le document de référence
+- La présentation
+- L'exemple de production
+- Informations sur les tests
 - Info GitHub
 
-# Test
-Votre code sera testé en comparant les résultats de votre algorythme aux résultats corrects. Un dossier (auquel seuls les directeurs ont accès) intitulé « CEC_test » contiendra un certain nombre d'images correspondant à oui ou non. Le format de fichier de ces images sera le png, le nom de chaque image étant « test_xxx.png ». Dans ce cas, x représente le nombre de fichiers testés, comme dans les répertoires « oui » et « non ». 
+# Accès à l'ensemble des données
+Nous vous avons donné accès aux images via le lien OneDrive ici :
 
-Les résultats seront comparés aux résultats corrects dans Excel. Il est nécessaire que les concurrents produisent leurs résultats dans un fichier csv, xlsx, ou google sheet (ou similaire). Bien que d'autres interfaces utilisateur soient encouragées, un fichier .csv ou quelque chose de similaire pour sortir les résultats bruts est nécessaire à des fins de test ! Vous pouvez consulter l'exemple de sortie dans le dossier info pour plus de détails à ce sujet !
+https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt
 
-# Informations potentiellement utiles :
-Nous vous avons donné accès aux images via le lien OneDrive ici : 
-https://dalu-my.sharepoint.com/:f:/g/personal/or942416_dal_ca/EnQWMWAfUMZFvSOX0s12eyIBUcl52LuIB1posYqPujOtzw?e=CSkuKl
+Vous remarquerez que le jeu de données doit être sauvegardé sous la forme d'un fichier 7z. Vous devrez installer 7-zip, Keka ou p7zip pour extraire le jeu de données.
 
-Nous vous suggérons d'enregistrer le dossier via un fichier zip et de le décompresser localement sur votre ordinateur. En moyenne, cette méthode prend environ 20 minutes (en supposant un débit de ~400KB/s). Vous pouvez essayer de synchroniser le dossier OneDrive, mais nous trouvons que cela prend plus de temps pour télécharger les fichiers.
+### Windows
+7-zip peut être téléchargé pour Windows en utilisant le lien suivant :
+https://www.7-zip.org
 
-## Récupérer l'ensemble de données
-Voici un exemple de code qui accède à ce dossier et qui s'exécute en utilisant le répertoire racine.
+### macOS
+Keka peut être téléchargé pour MacOS en utilisant le lien suivant :
+https://www.keka.io/en/
 
-```ruby
+### Ubuntu
+Sur Ubuntu, veuillez installer p7zip (ou tout autre logiciel supportant 7z) en lançant les commandes suivantes dans votre terminal :
+```
+sudo apt update
+sudo apt install p7zip-full
+```
+
+
+Lors de l'extraction du fichier, assurez-vous d'utiliser 7-zip, p7zip ou Keka.
+
+### MOT DE PASSE
+
+Le mot de passe pour le fichier 7z est :
+
+```
+gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
+```
+
+### Structure du répertoire
+
+Le dossier que vous avez téléchargé contient trois sous-dossiers : un dossier « yes », un dossier « no » et un dossier « CEC_test ». Les dossiers 'yes' et 'no' contiennent des images correspondant à des IRM saines et malsaines, tandis que le dossier 'CEC_test' sera utilisé par les administrateurs à des fins de test.
+```
+/CEC_2025
+│
+├── /yes/
+│ ├─── yes__1.png
+├─── yes__2.png
+│ └── ...
+│
+├─── /no/
+│ ├─── no__1.png
+├─── no__2.png
+│ └── ...
+│
+└─── /CEC_test/
+    ├── test__1.png
+    ├─── test__2.png
+    └── ...
+```
+
+# Potentiellement utile :
+
+## Récupérer le jeu de données
+Vous trouverez ci-dessous un exemple de code (en Python, mais il n'est pas obligatoire d'utiliser Python) qui accède à ce dossier et le parcourt en utilisant le répertoire racine. 
+
+Note : Ceci fait référence à la variable d'environnement CEC_2025_dataset que nous vous encourageons à configurer sur vos ordinateurs locaux. Dans ce dépôt, vous pouvez consulter ``Testing Information\setting_up_environment_variable.md`` pour plus d'informations sur l'utilisation des variables d'environnement. 
+
+```Ruby
 import os
 from os import path
 
-dataset_dir = r"/Users/orionwiersma/Documents/CEC_2025 »
+dataset_dir = os.getenv('CEC_2025_dataset') # Récupère le chemin de la variable d'environnement
 
-# Initialiser les listes pour contenir les données
+# Initialise les listes pour contenir les données
 image_paths = []
 targets = []
 
 total_images = 0
 
 # Carte pour les étiquettes des cibles
-label_map = {'no':0, 'yes':1}
+label_map = {'no' : 0, 'yes' : 1, 'CEC_test' : 2} 
 
-for subdir in listdir(dataset_dir) :
-  subdir_path = path.join(dataset_dir, subdir)
-  if path.isdir(subdir_path) :
-    subdir_path_list = listdir(subdir_path)
-    for image in subdir_path_list :
-      image_paths.append(path.join(subdir_path, image))
-      targets.append(label_map[subdir])
-    total_images += len(subdir_path_list)
-    print(f « Nombre d'images dans le répertoire “{subdir}” : {len(subdir_path_list)}")
-print(f'Nombre total d'images : {total_images}')
+# Boucle sur les sous-répertoires du répertoire du jeu de données
+for subdir in os.listdir(dataset_dir) :
+    subdir_path = path.join(dataset_dir, subdir)
+
+    if os.path.isdir(subdir_path) :
+        subdir_path_list = os.listdir(subdir_path)
+        for image in subdir_path_list :
+            image_paths.append(path.join(subdir_path, image))
+            targets.append(label_map[subdir])
+
+        total_images += len(subdir_path_list)
+        print(f « Nombre d'images dans le répertoire “{subdir}” : {len(subdir_path_list)}")
+
+        print(f'Nombre total d'images : {total_images}')
 ```
 Cela devrait donner quelque chose comme ceci :
+
 ```
-Nombre d'images dans le répertoire 'no' : 9546
-Nombre d'images dans le répertoire 'yes' : 9828
-Nombre total d'images : 19374
+Nombre d'images dans le répertoire 'no' : 8727
+Nombre d'images dans le répertoire 'CEC_test' : 1
+Nombre d'images dans le répertoire 'yes' : 9310
+Nombre total d'images : 18038
 ```
 ## Vérification des chemins d'accès aux fichiers
 Vous pouvez également vérifier les chemins d'accès aux fichiers de vos images :
-```ruby
+``Ruby
 import pandas as pd
 import numpy as np
 
@@ -93,13 +146,12 @@ df = pd.DataFrame({
 
 print(df.head())
 ```
-
 Ce qui devrait donner quelque chose comme ceci :
 ```
                                           image_path target
-0 /Users/orionwiersma/Documents/augmented/no/no_...       0
-1 /Users/orionwiersma/Documents/augmented/no/no_...       0
-2 /Users/orionwiersma/Documents/augmentés/no/no_...       0
-3 /Users/orionwiersma/Documents/augmentés/no/no_...       0
-4 /Users/orionwiersma/Documents/augmentés/no/no_...       0
+0 /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+1 /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+2 /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+3 /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
+4 /Users/orionwiersma/Documents/CEC_2025/no/no_...       0
 ```
