@@ -25,6 +25,14 @@ Dans votre README.md, veuillez spécifier :
 - Les fichiers modèles (avec les liens s'ils ne sont pas situés sur la branche git) qui doivent être téléchargés pour exécuter votre code. Voir ``Testing Information\specific_model_file_download.md`` pour plus d'informations à ce sujet.
 - Si nécessaire, le système d'exploitation sur lequel votre code doit être exécuté. Toute spécification de ce type qui n'est pas incluse dans votre README ne peut être considérée comme étant sur la ou les machines des directeurs.
 
+### Instructions pour le téléchargement des fichiers de modèle :
+
+Si votre code nécessite des fichiers spécifiques pour les données du modèle (par exemple, les poids du modèle stockés dans HDF5, Pickle, le format JSON, etc.), veuillez spécifier ces dépendances dans le fichier README. Le téléchargement de fichiers volumineux directement sur GitHub peut entraîner des retards. Si c'est le cas, vous pouvez utiliser un lien public OneDrive, Google Drive ou un autre service pour y accéder. Les équipes seront sanctionnées si les fichiers ne sont pas téléchargés à temps (les dates de modification des fichiers seront vérifiées pour OneDrive et Google Drive). 
+
+Les équipes se verront infliger des pénalités allant de l'élimination à -5pts en fonction de la gravité si les fichiers ne sont pas téléchargés à temps (les dates de modification des fichiers seront vérifiées pour OneDrive et Google Drive). 
+
+D'autres méthodes de téléchargement sont autorisées, à condition que les fichiers soient téléchargés dans les délais impartis par le défi et que le temps de téléchargement soit visible.
+
 # Fichiers d'information
 Les fichiers suivants fournissent toutes les informations relatives au concours. Il s'agit des dossiers suivants
 - Le document de référence
