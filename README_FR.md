@@ -33,6 +33,9 @@ Les équipes se verront infliger des pénalités allant de l'élimination à -5p
 
 D'autres méthodes de téléchargement sont autorisées, à condition que les fichiers soient téléchargés dans les délais impartis par le défi et que le temps de téléchargement soit visible.
 
+Note: Les soumissions tardives de fichiers de modèles seront tolérées à la seule discrétion des directeurs. Les concurrents doivent explicitement indiquer la raison de la soumission tardive de ces fichiers. Les directeurs n'utiliseront pas les fichiers tardifs si la raison du retard n'est pas communiquée par les concurrents ou si la raison n'est pas suffisante.
+
+
 # Fichiers d'information
 Les fichiers suivants fournissent toutes les informations relatives au concours. Il s'agit des dossiers suivants
 - Le document de référence
