@@ -4,9 +4,10 @@ Welcome to the CEC 2025 Programming Competition! Everything you need is in this 
 1. Read the rest of this README.md
 2. Read the tutorial linked in `githubHowToUseGithubDesktop.txt`
 3. Read the tutorial linked in `githubHowToFork.txt`
-4. Fork this repo
-5. Clone your forked repo locally on your machine
-6. Start coding!
+4. Fork this repo.
+5. Clone your forked repo locally on your machine, or use your alternative repo.
+6. Add us as Collaborators.
+7. Start coding!
 
 # Getting Help
 Please follow the steps below if you need help:
