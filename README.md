@@ -46,7 +46,7 @@ The following files provide all the information regarding the competition. This 
 # Accessing Dataset
 We have given you access to the images through the OneDrive link here:
 
-https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt
+https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EUw8w3GiFVlIkPkwHZGgUhoBnqsPx9cRXZrVvGMeSh_VjA?e=Iuqni0 
 
 You'll notice that the dataset is to be saved as a 7z file. You will need to install either 7-zip, Keka, or p7zip to extract the dataset.
 
