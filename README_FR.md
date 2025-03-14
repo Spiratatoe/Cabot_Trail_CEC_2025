@@ -5,8 +5,9 @@ Bienvenue au concours de programmation CEC 2025 ! Tout ce dont vous avez besoin 
 2. Veuillez lire le tutoriel lié à `githubHowToUseGithubDesktop.txt`
 3. Veuillez lire le tutoriel lié à `githubHowToFork.txt`
 4. Veuillez créer un repo (Fork)
-5. Veuillez cloner votre repo forké localement sur votre machine
-6. Veuillez lire commencer à coder !
+5. Veuillez cloner votre repo forké localement sur votre machine, ou utilisez un autre répertoire.
+6. Ajoutez-nous comme collaborateurs.
+7. Veuillez lire commencer à coder !
 
 # Obtenir de l'aide
 Veuillez suivre les étapes ci-dessous si vous avez besoin d'aide :
@@ -29,11 +30,10 @@ Dans votre README.md, veuillez spécifier :
 
 Si votre code nécessite des fichiers spécifiques pour les données du modèle (par exemple, les poids du modèle stockés dans HDF5, Pickle, le format JSON, etc.), veuillez spécifier ces dépendances dans le fichier README. Le téléchargement de fichiers volumineux directement sur GitHub peut entraîner des retards. Si c'est le cas, vous pouvez utiliser un lien public OneDrive, Google Drive ou un autre service pour y accéder. Les équipes seront sanctionnées si les fichiers ne sont pas téléchargés à temps (les dates de modification des fichiers seront vérifiées pour OneDrive et Google Drive). 
 
-Les équipes se verront infliger des pénalités allant de l'élimination à -5pts en fonction de la gravité si les fichiers ne sont pas téléchargés à temps (les dates de modification des fichiers seront vérifiées pour OneDrive et Google Drive). 
+Les équipes se verront infliger des pénalités allant de -5pts à -20pts en cas de soumission tardive des fichiers de modèles. La raison de la soumission tardive doit être indiquée et confirmée par les directeurs. Dans les cas les plus graves, les directeurs de compétition n'utiliseront pas ces données (les dates de modification des fichiers seront vérifiées sur OneDrive et Google Drive). Si votre fichier est en retard de plus d'une heure (en temps de téléchargement), les directeurs choisiront de ne pas utiliser les données du modèle, ce qui n'entraînera pas de pénalité. Cette règle ne s'applique pas aux codes et aux présentations. Les directeurs détermineront ce qui est considéré comme un « fichier modèle » après avoir examiné les soumissions des concurrents.
 
 D'autres méthodes de téléchargement sont autorisées, à condition que les fichiers soient téléchargés dans les délais impartis par le défi et que le temps de téléchargement soit visible.
 
-Note: Les soumissions tardives de fichiers de modèles seront tolérées à la seule discrétion des directeurs. Les concurrents doivent explicitement indiquer la raison de la soumission tardive de ces fichiers. Les directeurs n'utiliseront pas les fichiers tardifs si la raison du retard n'est pas communiquée par les concurrents ou si la raison n'est pas suffisante.
 
 
 # Fichiers d'information
