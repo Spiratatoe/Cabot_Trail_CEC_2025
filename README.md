@@ -137,10 +137,10 @@ print(f'Total number of images: {total_images}')
 ```
 This should ouput something like this:
 ```
-Number of images in 'no' directory: 8727
+Number of images in 'no' directory: 8205
 Number of images in 'CEC_test' directory: 1
 Number of images in 'yes' directory: 9310
-Total number of images: 18038
+Total number of images: 17516
 ```
 ## Checking File Paths
 You may also want to check the file paths of your images:
