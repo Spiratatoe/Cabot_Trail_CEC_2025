@@ -1,11 +1,13 @@
 # Instructions for Competitors: How to Fork the Repository, Add Collaborators, and Submit Your Code
 
 ## Step 1: Fork the Original Repository
-1. Go to the main page of this repository.
+1. If using your own repository, skip this step.
    
-2. In the top right corner of the page, click the **Fork** button. This will create a **copy** of the repository in your GitHub account.
+3. Go to the main page of this repository.
+   
+4. In the top right corner of the page, click the **Fork** button. This will create a **copy** of the repository in your GitHub account.
 
-3. Once the fork is complete, you’ll have a new repository under your GitHub account:
+5. Once the fork is complete, you’ll have a new repository under your GitHub account:
    - `https://github.com/your-username/programmingcompetition-repo` (this will be your fork).
 
 ---
@@ -26,7 +28,7 @@
 ---
 
 ## Step 3: Work on Your Code
-1. Clone your forked repository to your local machine by running the following command in your terminal:
+1. Clone your forked repository (or personal) to your local machine by running the following command in your terminal:
    ```bash
    git clone https://github.com/your-username/programming-competition-repo.git
 
