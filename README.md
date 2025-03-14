@@ -33,7 +33,7 @@ Teams will face penalties ranging from elimination to -5pts depending on severit
 
 Alternative download methods are allowed, as long as the files are uploaded within the challenge’s time constraints and the upload time is visible.
 
-Teams will face penalties ranging from  -5pts to -20pts for late model file submissions. The reason for late submission must be stated, and confirmed by directors. In severe cases, competition directors will not use this data (file modification dates will be checked on OneDrive and Google Drive). If your file is more than 1hr late (in upload time), Directors will opt to not use the model data, this will not result in a penalty. See the figure below for parameters of late model file submission. Alternative download methods are allowed, as long as the files are uploaded within the challenge’s time constraints and the upload time is visible. This does not apply to code, and presentation submissions. Directors will determine what is classified as a ‘model file’ upon reviewing competitor submissions. 
+Teams will face penalties ranging from  -5pts to -20pts for late model file submissions. The reason for late submission must be stated, and confirmed by directors. In severe cases, competition directors will not use this data (file modification dates will be checked on OneDrive and Google Drive). If your file is more than 1hr late (in upload time), Directors will opt to not use the model data, this will not result in a penalty. This does not apply to code, and presentation submissions. Directors will determine what is classified as a ‘model file’ upon reviewing competitor submissions. 
 
 # Info Files
 The following files provide all the information regarding the competition. This includes:
