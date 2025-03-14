@@ -1,20 +1,20 @@
 # Introduction
 Bienvenue au concours de programmation CEC 2025 ! Tout ce dont vous avez besoin se trouve dans ce GitHub, et nous vous recommandons de suivre les étapes suivantes pour commencer :
 
-1. Lisez le reste de ce README.md
-2. Lisez le tutoriel lié à `githubHowToUseGithubDesktop.txt`
-3. Lisez le tutoriel lié à `githubHowToFork.txt`
-4. Créer un repo (Fork)
-5. Clonez votre repo forké localement sur votre machine
-6. Commencez à coder !
+1. Veuillez lire le reste de ce README.md
+2. Veuillez lire le tutoriel lié à `githubHowToUseGithubDesktop.txt`
+3. Veuillez lire le tutoriel lié à `githubHowToFork.txt`
+4. Veuillez créer un repo (Fork)
+5. Veuillez cloner votre repo forké localement sur votre machine
+6. Veuillez lire commencer à coder !
 
 # Obtenir de l'aide
 Veuillez suivre les étapes ci-dessous si vous avez besoin d'aide :
 
-1. Consultez la documentation incluse pour les questions de logistique et de notation
-2. Consultez le dossier du concours de programmation pour les questions relatives au concours
-3. Consultez le Discord pour les questions auxquelles vous avez déjà répondu
-4. Si vous avez fait tout cela, demandez de l'aide aux directeurs. Si nous pouvons répondre à votre question, elle sera postée sur le Discord en anglais.
+1. Veuillez consulter la documentation incluse pour les questions de logistique et de notation
+2. Veuillez consulter le dossier du concours de programmation pour les questions relatives au concours
+3. Veuillez consulter le Discord aux questions qui ont été déjà répondu
+4. Si vous avez fait tout cela, veuillez demander de l'aide aux directeurs. Si nous pouvons répondre à votre question, elle sera postée sur le Discord en anglais.
 
 # Notes importantes
 Dans votre README.md, veuillez spécifier :
@@ -23,7 +23,7 @@ Dans votre README.md, veuillez spécifier :
 - Le langage et la version que votre code utilise (par exemple, Python 3.11)
 - Une liste des paquets requis (par exemple, Pandas, NumPy), avec les versions si nécessaire (par exemple, pytorch==2.1.116). Un `requirements.txt` peut également suffire.
 - Les fichiers modèles (avec les liens s'ils ne sont pas situés sur la branche git) qui doivent être téléchargés pour exécuter votre code. Voir ``Testing Information\specific_model_file_download.md`` pour plus d'informations à ce sujet.
-- Si nécessaire, le système d'exploitation sur lequel votre code doit être exécuté. Toute spécification de ce type qui n'est pas incluse dans votre README ne peut être considérée comme étant sur la ou les machines des directeurs.
+- Si nécessaire, le système d'exploitation sur lequel votre code doit être exécuté. Toute spécification de ce type qui n'est pas incluse dans votre README ne peut être considérée comme étant sur les machines des directeurs.
 
 ### Instructions pour le téléchargement des fichiers de modèle :
 
@@ -37,7 +37,7 @@ Note: Les soumissions tardives de fichiers de modèles seront tolérées à la s
 
 
 # Fichiers d'information
-Les fichiers suivants fournissent toutes les informations relatives au concours. Il s'agit des dossiers suivants
+Les fichiers suivants fournissent toutes les informations relatives au concours. Il s'agit des dossiers suivants:
 - Le document de référence
 - La présentation
 - L'exemple de production
@@ -49,18 +49,18 @@ Nous vous avons donné accès aux images via le lien OneDrive ici :
 
 https://dalu-my.sharepoint.com/:u:/g/personal/or942416_dal_ca/EdKN7DMS8tNHm-dPmV56JCEB46o-vSoG4WMfbcdNRZCX8Q?e=PboqSt
 
-Vous remarquerez que le jeu de données doit être sauvegardé sous la forme d'un fichier 7z. Vous devrez installer 7-zip, Keka ou p7zip pour extraire le jeu de données.
+Vous remarquerez que le jeu de données doit être sauvegardé sous la forme d'un fichier 7z. Veuillez installer 7-zip, Keka ou p7zip pour extraire le jeu de données.
 
 ### Windows
-7-zip peut être téléchargé pour Windows en utilisant le lien suivant :
+7-zip peut être téléchargé pour Windows en utilisant le lien suivant:
 https://www.7-zip.org
 
 ### macOS
-Keka peut être téléchargé pour MacOS en utilisant le lien suivant :
+Keka peut être téléchargé pour MacOS en utilisant le lien suivant:
 https://www.keka.io/en/
 
 ### Ubuntu
-Sur Ubuntu, veuillez installer p7zip (ou tout autre logiciel supportant 7z) en lançant les commandes suivantes dans votre terminal :
+Sur Ubuntu, veuillez installer p7zip (ou tout autre logiciel supportant 7z) en lançant les commandes suivantes dans votre terminal:
 ```
 sudo apt update
 sudo apt install p7zip-full
@@ -79,7 +79,7 @@ gT5&dK9zR2wQ!aP0eY3B#6vL1zXhF8j
 
 ### Structure du répertoire
 
-Le dossier que vous avez téléchargé contient trois sous-dossiers : un dossier « yes », un dossier « no » et un dossier « CEC_test ». Les dossiers 'yes' et 'no' contiennent des images correspondant à des IRM saines et malsaines, tandis que le dossier 'CEC_test' sera utilisé par les administrateurs à des fins de test.
+Le dossier que vous avez téléchargé contient trois sous-dossiers : un dossier « yes », un dossier « no » et un dossier « CEC_test ». Les dossiers 'yes' et 'no' contiennent des images correspondant à des IRM saines et malsaines, tandis que le dossier 'CEC_test' sera utilisé par les directeurs à des fins de test.
 ```
 /CEC_2025
 │
@@ -102,7 +102,7 @@ Le dossier que vous avez téléchargé contient trois sous-dossiers : un dossier
 # Potentiellement utile :
 
 ## Récupérer le jeu de données
-Vous trouverez ci-dessous un exemple de code (en Python, mais il n'est pas obligatoire d'utiliser Python) qui accède à ce dossier et le parcourt en utilisant le répertoire racine. 
+Veuillez trouver ci-dessous un exemple de code (en Python, mais il n'est pas obligatoire d'utiliser Python) qui accède à ce dossier et le parcourt en utilisant le répertoire racine. 
 
 Note : Ceci fait référence à la variable d'environnement CEC_2025_dataset que nous vous encourageons à configurer sur vos ordinateurs locaux. Dans ce dépôt, vous pouvez consulter ``Testing Information\setting_up_environment_variable.md`` pour plus d'informations sur l'utilisation des variables d'environnement. 
 
