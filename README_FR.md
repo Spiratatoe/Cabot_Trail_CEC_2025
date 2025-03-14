@@ -139,10 +139,10 @@ for subdir in os.listdir(dataset_dir) :
 Cela devrait donner quelque chose comme ceci :
 
 ```
-Nombre d'images dans le répertoire 'no' : 8727
+Nombre d'images dans le répertoire 'no' : 8205
 Nombre d'images dans le répertoire 'CEC_test' : 1
 Nombre d'images dans le répertoire 'yes' : 9310
-Nombre total d'images : 18038
+Nombre total d'images : 17516
 ```
 ## Vérification des chemins d'accès aux fichiers
 Vous pouvez également vérifier les chemins d'accès aux fichiers de vos images :
