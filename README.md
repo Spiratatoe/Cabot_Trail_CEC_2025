@@ -35,6 +35,23 @@ Alternative download methods are allowed, as long as the files are uploaded with
 
 Note: Late model file submissions will be tolerated purely at the discretion of the Directors, Competitors must explicitly state the reason for late submission of these files. Directors will not use late files if the reason why they are late, is not communicated by the competitors, or if the reason is not sufficient.
 
+Teams will face penalties ranging from  -5pts to -20pts for late model file submissions. The reason for late submission must be stated, and confirmed by directors. In severe cases, competition directors will not use this data (file modification dates will be checked on OneDrive and Google Drive). If your file is more than 1hr late (in upload time), Directors will opt to not use the model data, this will not result in a penalty. See the figure below for parameters of late model file submission. Alternative download methods are allowed, as long as the files are uploaded within the challenge’s time constraints and the upload time is visible. This does not apply to code, and presentation submissions. Directors will determine what is classified as a ‘model file’ upon reviewing competitor submissions.
+
+
+Late Model File Submission with Valid Reason
+Pt Deduction
+> 5 min late
+-5pts
+> 30 min late
+-10pts
+> 1hr late
+-20pts
+Anything more than 1hr late
+-0 pts, model file not used
+
+Figure 2. Late Model File Submissions, Pt Deductions
+
+
 # Info Files
 The following files provide all the information regarding the competition. This includes:
 - The Case Document
