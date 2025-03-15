@@ -9,6 +9,11 @@ import glob
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
+'''
+code taken from main and put through ghat gpt in order to quickly get scores 
+“ChatGPT,” Chatgpt.com, 2025. https://chatgpt.com/ (accessed Mar. 15, 2025).
+'''
+
 def csv_output(output_text):
     with open("cabot_trail_output.csv", 'w', newline='') as file:
         writer = csv.writer(file)
