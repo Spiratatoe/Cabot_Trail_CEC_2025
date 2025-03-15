@@ -17,10 +17,12 @@ class_names = ["no", "yes"]
 
 # Loop through subdirectories in the dataset directory
 subdir_path = os.path.join(dataset_dir, 'CEC_test')
+
+#Modified from ChatGPT
 if os.path.isdir(subdir_path):
     subdir_path_list = os.listdir(subdir_path)
     for brain in subdir_path_list:
-        brainPath = path.join(dataset_dir,subdir,brain)
+        brainPath = path.join(subdir_path,brain)
         print(brainPath)
         img = image.load_img(brainPath, target_size=(224, 224)) 
         img_array = image.img_to_array(img)
@@ -37,5 +39,4 @@ if os.path.isdir(subdir_path):
 
 #Export to CSV
 csv_output(outputList)
-
 
